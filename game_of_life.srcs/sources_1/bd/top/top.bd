@@ -1,0 +1,52 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a100tfgg484-2",
+      "gen_directory": "../../../../game_of_life.gen/sources_1/bd/top",
+      "name": "top",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2025.2"
+    },
+    "design_tree": {
+      "xdma_0": ""
+    },
+    "components": {
+      "xdma_0": {
+        "vlnv": "xilinx.com:ip:xdma:4.2",
+        "ip_revision": "2",
+        "xci_name": "top_xdma_0_0",
+        "xci_path": "ip/top_xdma_0_0/top_xdma_0_0.xci",
+        "inst_hier_path": "xdma_0",
+        "has_run_ip_tcl": "true",
+        "interface_ports": {
+          "M_AXI": {
+            "bd_attributes": {
+              "TYPE": {
+                "value": "END_POINT",
+                "value_src": "auto"
+              }
+            },
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "mode": "Master",
+            "address_space_ref": "M_AXI",
+            "base_address": {
+              "minimum": "0x00000000",
+              "maximum": "0xFFFFFFFFFFFFFFFF",
+              "width": "64"
+            }
+          }
+        },
+        "addressing": {
+          "address_spaces": {
+            "M_AXI": {
+              "range": "16E",
+              "width": "64"
+            }
+          }
+        }
+      }
+    }
+  }
+}

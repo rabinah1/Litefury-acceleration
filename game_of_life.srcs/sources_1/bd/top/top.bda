@@ -193,6 +193,24 @@
                 "VH": "2",
                 "VT": "PM",
                 "TU": "active"
+            },
+            "V3": {
+                "VT": "AC",
+                "BA": "0x0000000076000000",
+                "HA": "0x000000007600FFFF",
+                "BP": "C_S00_AXI_BASEADDR",
+                "HP": "C_S00_AXI_HIGHADDR",
+                "MA": "M_AXI",
+                "MX": "/xdma_0",
+                "MI": "M_AXI",
+                "MS": "SEG_gol_engine_0_S00_AXI_mem",
+                "MV": "xilinx.com:ip:xdma:4.2",
+                "SX": "/gol_engine_0",
+                "SI": "S00_AXI",
+                "SS": "S00_AXI_mem",
+                "SV": "user.org:user:gol_engine:1.0",
+                "TM": "both",
+                "TU": "memory"
             }
         },
         "edges": [
@@ -203,6 +221,11 @@
             {
                 "src": "V1",
                 "trg": "V2"
+            },
+            {
+                "src": "V3",
+                "trg": "V2",
+                "EH": "2"
             }
         ]
     }

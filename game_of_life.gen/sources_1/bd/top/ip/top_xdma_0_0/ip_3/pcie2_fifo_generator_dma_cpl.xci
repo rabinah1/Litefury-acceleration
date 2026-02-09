@@ -386,7 +386,7 @@
         "BOARD_CONNECTIONS": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
         "DEVICE": [ { "value": "xc7a100t", "resolve_type": "generated", "usage": "all" } ],
         "PACKAGE": [ { "value": "fgg484", "resolve_type": "generated", "usage": "all" } ],
-        "PREFHDL": [ { "value": "VERILOG", "resolve_type": "generated", "usage": "all" } ],
+        "PREFHDL": [ { "value": "VHDL", "resolve_type": "generated", "usage": "all" } ],
         "SILICON_REVISION": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
         "SIMULATOR_LANGUAGE": [ { "value": "MIXED", "resolve_type": "generated", "usage": "all" } ],
         "SPEEDGRADE": [ { "value": "-2", "resolve_type": "generated", "usage": "all" } ],
@@ -514,5 +514,5 @@
       }
     }
   },
-  "checksum": "1efd2ad5"
+  "checksum": "10174ef1"
 }
